@@ -1,0 +1,59 @@
+body {
+    background: lightgray;
+}
+
+.float-left {
+    float: left;
+}
+
+.half {
+    width: 50%;
+}
+
+.resume-main {
+    width: 65%;
+    height: 700px;
+    margin: 10px auto;
+    background: gray;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.resume-header {
+    background: #333;
+    width: 100%;
+    height: 30%;
+}
+
+.resume-container {
+    width: 100%;
+    height: 70%;
+    background: white;
+}
+
+.item-content {
+    font-size: 15px;
+    line-height: 1.42;
+}
+
+.wrapper-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-header {
+    color: white;
+    background: black;
+    margin: 0 40px 0 0;
+    padding: 3px 10px 3px 26px;
+    background-color: #333;
+    border-radius: 6px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.33;
+}
+
+.item-title {
+    font-size: 18px;
+    font-weight: bold;
+    /* margin: 10px 0 5px 0; */
+}
