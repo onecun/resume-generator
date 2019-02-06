@@ -1,26 +1,5 @@
 /* 辅助 css */
-
-body {
-    background: lightgray;
-}
-
-li {
-    display: block;
-}
-
-.float-left {
-    float: left;
-}
-
-.p-vertical-center {                /* 垂直居中 */
-    position: absolute;             /* 定位 */ 
-    top: 50%;                       /* 顶部 */
-    transform: translateY(-60%);    /* Y轴距离 */
-}
-
-.half {
-    width: 50%;
-}
+@import url("./utile.css");
 
 /* main */
 .resume-main {
@@ -49,9 +28,9 @@ li {
     font-size: 18px;
 }
 
-.resume-info {
-    /* position: relative; */
-}
+/* .resume-info {
+    position: relative;
+} */
 
 .info-main {
     right: 5%;

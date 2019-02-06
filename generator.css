@@ -1,0 +1,85 @@
+/* 辅助 */
+@import url("./utile.css");
+
+.generator-main {
+    position: relative;
+    /* background: lightgreen; */
+}
+
+.main-container {
+    width: 90%;
+    margin: 5px auto;
+    padding: 30px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.info-scetion {
+    position: relative;
+    /* border: 2px red solid; */
+    padding: 10px;
+    margin: 18px 0;
+    background: white;
+    border-radius: 10px;
+}
+
+.info-bar {
+    position: relative;
+    height: 50px;
+}
+
+.span-info-title {
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+}
+
+.input-info-content {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    height: 50%;
+    border: 1px solid #303030;
+}
+
+.button-add {
+    background: #0288D1;
+}
+
+.button-add:hover {
+    background: #6da1e6;
+    cursor: pointer;
+}
+
+.button-delete {
+    background: #f48181;
+}
+
+.button-delete:hover {
+    background: #d42f2f;
+    cursor: pointer;
+}
+
+.button-add-detail {
+    position: absolute;
+    bottom: 2px;
+    z-index: 100;
+} 
+
+.button-delete-detail {
+    position: absolute;
+    bottom: 2px;
+    left: 80px;
+    background: #f48181;
+    z-index: 100;
+} 
+
+.button-delete-detail:hover {
+    background: #d42f2f;
+    cursor: pointer;
+}
+
+.wrapper-title {
+    font-size: 18px;
+    font-weight: bold;
+}
