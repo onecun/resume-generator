@@ -43,7 +43,7 @@ const deleteSection = function (btn) {
     p.remove()
 }
 
-// 给所有的 info-section 绑定事件
+// 给所有的 button 绑定事件
 const bindALlSection = function () {
     let mainBar = e('.main-container')
     bindEvent(mainBar, 'click', function (event) {
